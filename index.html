@@ -1,13 +1,99 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My Startup</title>
+    <title>Erudio Bio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>Welcome to my startup's website.</p>
+    <header>
+        <div class="container">
+            <h1>Erudio Bio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#technology">Technology</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#investors">Investors</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Revolutionizing Medical Economics with AI Enabled Biological Data</h2>
+            <p>Driving diagnosis with data, improving drug development, and paving the path to personalized medicine.</p>
+        </div>
+    </section>
+
+    <section id="technology">
+        <div class="container">
+            <h2>Our Technology</h2>
+            <p>Discover the power of our Versatile Smart Assay (VSA) Platform, leveraging AI for comprehensive data analysis.</p>
+            <ul>
+                <li>Scalable multi-omic microarray sensor</li>
+                <li>Real-time data quality scoring with Bayesian inference</li>
+                <li>AI-driven data extraction and feature discovery</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Key Projects & Achievements</h2>
+            <p>Explore our collaborations and milestones that drive innovation in the biotech industry.</p>
+            <ul>
+                <li>Partnership with Analog Devices</li>
+                <li>Pilot program with Shanghai General Hospital</li>
+                <li>Commercialization plans and market entry strategies</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="team">
+        <div class="container">
+            <h2>Our Team</h2>
+            <p>Meet the experts behind Erudio Bio, with extensive experience in biochemistry, AI, and medical research.</p>
+            <ul>
+                <li>Dr. Kee-Hyun Paik - Co-founder & CEO</li>
+                <li>Susanne Baumhueter, Ph.D. - Project Management</li>
+                <li>Michael Cola - CEO Advisor</li>
+                <li>And more...</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="investors">
+        <div class="container">
+            <h2>Investor Information</h2>
+            <p>Join us in our journey to revolutionize the biotech industry. Learn more about our investment opportunities and financial performance.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions or interested in partnership opportunities? Reach out to us.</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Erudio Bio. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
